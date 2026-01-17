@@ -7,7 +7,7 @@ export const router = createBrowserRouter([
         element: <Main />
     },
     {
-        path: "/history",
+        path: "/history/:id",
         element: <History />
     }
 ])
